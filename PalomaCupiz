@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi App - Página Principal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      color: #111;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido a Mi App</h1>
+    <p>Esta es la página principal de nuestra aplicación.</p>
+    <p>Utilizamos Google OAuth para autenticación segura.</p>
+    <p>Lee nuestra <a href="https://www.privacypolicies.com/live/ce1fd28b-171c-40da-bfbc-a51c9d35970b" target="_blank">Política de Privacidad</a>.</p>
+    <p>Gracias por usar nuestra app 🚀</p>
+  </div>
+</body>
+</html>
